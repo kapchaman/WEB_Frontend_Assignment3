@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nomad Bookshelf</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-white border-bottom sticky-top">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#home">Nomad Bookshelf</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#collections">Collections</a></li>
+            <li class="nav-item"><a class="nav-link" href="#clubs">Clubs</a></li>
+            <li class="nav-item"><a class="nav-link" href="#questions">FAQ</a></li>
+            <li class="nav-item d-lg-none"><a class="nav-link" href="#visit">Visit</a></li>
+            <li class="nav-item d-none d-lg-block"><a class="btn btn-dark btn-sm px-3" href="#visit">Plan a Visit</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header id="home" class="hero py-5">
+      <div class="container py-lg-4">
+        <div class="row align-items-center g-4 g-lg-5">
+          <div class="col-lg-6 order-2 order-lg-1">
+            <p class="text-uppercase fw-semibold small text-success mb-2">Independent reading room</p>
+            <h1 class="display-5 fw-bold lh-1 mb-3">Books, quiet tables, and a calendar full of small discoveries.</h1>
+            <p class="lead text-secondary mb-4">Nomad Bookshelf is a neighborhood reading studio for students, remote workers, and anyone who wants a calm place to find their next idea.</p>
+            <div class="d-flex flex-column flex-sm-row gap-2">
+              <a href="#clubs" class="btn btn-success btn-lg">Explore clubs</a>
+              <a href="#collections" class="btn btn-outline-dark btn-lg">Browse shelves</a>
+            </div>
+            <p class="d-md-none mt-3 mb-0 small text-secondary">Open daily from 9:00 to 21:00.</p>
+          </div>
+          <div class="col-lg-6 order-1 order-lg-2">
+            <img class="img-fluid hero-image" src="assets/library-room.svg" alt="Warm library table with books and lamps">
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section id="collections" class="hand-section" aria-labelledby="collections-title">
+      <div class="hand-shell">
+        <div class="hand-heading">
+          <p>Curated shelves</p>
+          <h2 id="collections-title">Collections built by hand</h2>
+        </div>
+        <div class="hand-grid">
+          <article class="hand-card">
+            <img src="assets/fiction-stack.svg" alt="Stack of novels on a desk">
+            <div>
+              <h3>Modern Fiction</h3>
+              <p>Shortlisted novels, translated stories, and weekend reads with strong voices.</p>
+            </div>
+          </article>
+          <article class="hand-card">
+            <img src="assets/study-shelf.svg" alt="Open books on wooden shelves">
+            <div>
+              <h3>Study Shelf</h3>
+              <p>Reference books, exam guides, and practical titles for focused study sessions.</p>
+            </div>
+          </article>
+          <article class="hand-card">
+            <img src="assets/design-shelves.svg" alt="Tall library shelves">
+            <div>
+              <h3>Design Lab</h3>
+              <p>Typography, interface design, architecture, and visual culture in one aisle.</p>
+            </div>
+          </article>
+          <article class="hand-card">
+            <img src="assets/local-voices.svg" alt="Books in a bright reading space">
+            <div>
+              <h3>Local Voices</h3>
+              <p>Essays, memoirs, and poetry from regional writers and independent presses.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <main>
+      <section id="clubs" class="py-5 bg-light">
+        <div class="container">
+          <div class="row align-items-end mb-4">
+            <div class="col-lg-8">
+              <p class="text-uppercase fw-semibold small text-success mb-2">Weekly programs</p>
+              <h2 class="fw-bold mb-2">Clubs for different reading moods</h2>
+              <p class="text-secondary mb-0">Each card uses the Bootstrap grid: one per row on phones, two on tablets, and three on large screens.</p>
+            </div>
+            <div class="col-lg-4 text-lg-end d-none d-md-block">
+              <span class="badge text-bg-success-subtle text-success border border-success-subtle rounded-pill px-3 py-2">New schedule every Monday</span>
+            </div>
+          </div>
+          <div class="row g-4">
+            <div class="col-md-6 col-lg-4">
+              <div class="card h-100 shadow-sm">
+                <img src="assets/deep-work.svg" class="card-img-top" alt="Notebook and books on a study table">
+                <div class="card-body">
+                  <h3 class="h5 card-title">Monday Deep Work</h3>
+                  <p class="card-text text-secondary">A quiet block for reading, note-taking, and planning the week with a shared focus timer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="card h-100 shadow-sm">
+                <img src="assets/essay-circle.svg" class="card-img-top" alt="People working together around laptops">
+                <div class="card-body">
+                  <h3 class="h5 card-title">Friday Essay Circle</h3>
+                  <p class="card-text text-secondary">A discussion group for long-form articles, culture pieces, and thoughtful debate.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="card h-100 shadow-sm">
+                <img src="assets/slow-reads.svg" class="card-img-top" alt="Person reading near a window">
+                <div class="card-body">
+                  <h3 class="h5 card-title">Sunday Slow Reads</h3>
+                  <p class="card-text text-secondary">A relaxed morning session for novels, tea, and conversation without rushing the ending.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="py-5">
+        <div class="container">
+          <div class="row g-4 align-items-center">
+            <div class="col-lg-6 order-2 order-lg-1">
+              <img class="img-fluid rounded-2 shadow-sm" src="assets/adaptive-space.svg" alt="Open book with reading glasses">
+            </div>
+            <div class="col-lg-6 order-1 order-lg-2">
+              <p class="text-uppercase fw-semibold small text-success mb-2">Why people stay</p>
+              <h2 class="fw-bold mb-3">A reading space that adapts to the day.</h2>
+              <p class="text-secondary">Morning tables are set up for solo focus. Afternoon corners are used for tutoring and pair study. In the evening, the front room becomes a small event area for talks and book swaps.</p>
+              <div class="row g-3 mt-2">
+                <div class="col-sm-6">
+                  <div class="p-3 border rounded-2 h-100">
+                    <strong>1,200+</strong>
+                    <p class="mb-0 text-secondary small">titles available for in-room reading</p>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="p-3 border rounded-2 h-100">
+                    <strong>18</strong>
+                    <p class="mb-0 text-secondary small">weekly seats for clubs and workshops</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="questions" class="py-5 bg-light">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <h2 class="fw-bold text-center mb-4">Common questions</h2>
+              <div class="accordion" id="faq">
+                <div class="accordion-item">
+                  <h3 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#answerOne" aria-expanded="true" aria-controls="answerOne">Can I study without joining a club?</button>
+                  </h3>
+                  <div id="answerOne" class="accordion-collapse collapse show" data-bs-parent="#faq">
+                    <div class="accordion-body">Yes. Day passes include a desk, Wi-Fi, and access to the open shelves.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h3 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#answerTwo" aria-expanded="false" aria-controls="answerTwo">Do I need to bring my own books?</button>
+                  </h3>
+                  <div id="answerTwo" class="accordion-collapse collapse" data-bs-parent="#faq">
+                    <div class="accordion-body">You can bring your own, borrow from the reading room, or ask the desk for a recommendation.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h3 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#answerThree" aria-expanded="false" aria-controls="answerThree">Is the space quiet?</button>
+                  </h3>
+                  <div id="answerThree" class="accordion-collapse collapse" data-bs-parent="#faq">
+                    <div class="accordion-body">The main room is quiet. Group conversations happen in the small back room after 17:00.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="visit" class="py-5">
+        <div class="container">
+          <div class="row g-4 align-items-center">
+            <div class="col-md-7">
+              <h2 class="fw-bold mb-2">Visit this week</h2>
+              <p class="text-secondary mb-md-0">Choose a table, join a reading club, or spend one quiet hour deciding what to read next.</p>
+            </div>
+            <div class="col-md-5 text-md-end">
+              <button type="button" class="btn btn-success btn-lg" data-bs-toggle="modal" data-bs-target="#visitModal">Reserve a seat</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="py-4 border-top">
+      <div class="container d-flex flex-column flex-md-row justify-content-between gap-2">
+        <p class="mb-0 small text-secondary">Nomad Bookshelf</p>
+        <p class="mb-0 small text-secondary">Responsive page for Assignment 3</p>
+      </div>
+    </footer>
+
+    <div class="modal fade" id="visitModal" tabindex="-1" aria-labelledby="visitModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title fs-5" id="visitModalLabel">Reserve a seat</h2>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            Send a message to the reading room desk with your preferred date and time.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
+            <a class="btn btn-success" href="mailto:hello@example.com">Email desk</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      if (!window.bootstrap) {
+        document.querySelectorAll('[data-bs-toggle="collapse"]').forEach((button) => {
+          button.addEventListener('click', () => {
+            const target = document.querySelector(button.getAttribute('data-bs-target'));
+            if (!target) return;
+            const isOpen = target.classList.toggle('show');
+            button.setAttribute('aria-expanded', String(isOpen));
+          });
+        });
+
+        document.querySelectorAll('[data-bs-toggle="modal"]').forEach((button) => {
+          button.addEventListener('click', () => {
+            const target = document.querySelector(button.getAttribute('data-bs-target'));
+            if (target) target.classList.add('show');
+          });
+        });
+
+        document.querySelectorAll('[data-bs-dismiss="modal"]').forEach((button) => {
+          button.addEventListener('click', () => {
+            button.closest('.modal')?.classList.remove('show');
+          });
+        });
+      }
+    </script>
+  </body>
+</html>

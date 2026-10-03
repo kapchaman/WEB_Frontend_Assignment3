@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 675" role="img" aria-label="Group reading table">
+  <rect width="900" height="675" fill="#edf5ef"/>
+  <ellipse cx="450" cy="405" rx="300" ry="105" fill="#8b5a3c"/>
+  <circle cx="270" cy="210" r="58" fill="#246b45"/>
+  <circle cx="450" cy="180" r="58" fill="#b85c38"/>
+  <circle cx="630" cy="210" r="58" fill="#283b4a"/>
+  <rect x="315" y="335" width="110" height="80" rx="8" fill="#ffffff"/>
+  <rect x="475" y="335" width="110" height="80" rx="8" fill="#ffffff"/>
+  <path d="M345 370h50M505 370h50" stroke="#61706a" stroke-width="10" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 440" role="img" aria-label="Study shelf">
+  <rect width="700" height="440" fill="#edf5ef"/>
+  <rect x="85" y="80" width="530" height="285" rx="18" fill="#6f4a35"/>
+  <rect x="120" y="120" width="460" height="18" fill="#b78a62"/>
+  <rect x="120" y="218" width="460" height="18" fill="#b78a62"/>
+  <rect x="120" y="316" width="460" height="18" fill="#b78a62"/>
+  <g fill="#fff7ea">
+    <rect x="145" y="145" width="34" height="70"/><rect x="190" y="145" width="24" height="70"/><rect x="225" y="145" width="42" height="70"/><rect x="430" y="145" width="31" height="70"/><rect x="475" y="145" width="46" height="70"/>
+    <rect x="150" y="243" width="28" height="70"/><rect x="194" y="243" width="48" height="70"/><rect x="405" y="243" width="36" height="70"/><rect x="455" y="243" width="30" height="70"/><rect x="500" y="243" width="34" height="70"/>
+  </g>
+  <rect x="290" y="255" width="72" height="58" rx="8" fill="#246b45"/>
+</svg>

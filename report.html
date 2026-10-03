@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Assignment 3 Report</title>
+    <style>
+      body {
+        color: #1d2320;
+        font-family: Arial, sans-serif;
+        line-height: 1.5;
+        margin: 32px auto;
+        max-width: 920px;
+      }
+
+      h1,
+      h2 {
+        line-height: 1.2;
+      }
+
+      table {
+        border-collapse: collapse;
+        margin: 16px 0 24px;
+        width: 100%;
+      }
+
+      th,
+      td {
+        border: 1px solid #cfd8d2;
+        padding: 10px;
+        text-align: left;
+        vertical-align: top;
+      }
+
+      th {
+        background: #eef4f1;
+      }
+
+      img {
+        border: 1px solid #cfd8d2;
+        display: block;
+        margin: 12px 0 28px;
+        max-width: 100%;
+      }
+
+      .meta {
+        background: #fffaf2;
+        border-left: 5px solid #246b45;
+        padding: 12px 16px;
+      }
+
+      @media print {
+        body {
+          margin: 18mm;
+          max-width: none;
+        }
+
+        img {
+          max-height: 230mm;
+          object-fit: contain;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Assignment 3 Report</h1>
+    <div class="meta">
+      <p><strong>Name:</strong> Your Name</p>
+      <p><strong>Group:</strong> Your Group</p>
+      <p><strong>Project:</strong> Nomad Bookshelf</p>
+      <p><strong>GitHub repository URL:</strong> https://github.com/kapchaman/WEB_Frontend_Assignment3</p>
+    </div>
+
+    <h2>Task 1. Media Queries by Hand</h2>
+    <p>The "Curated shelves" section was built with my own CSS only. I used CSS Grid and mobile-first media queries. On a phone the collection cards appear in one column. At 768px the grid changes to two columns, and at 1100px it changes to four columns. The heading size and section spacing also increase at wider breakpoints.</p>
+
+    <h2>Task 2. Bootstrap Grid and Components</h2>
+    <p>The rest of the page uses Bootstrap 5.3 from the CDN. The navbar collapses on small screens and links to page sections. The hero section uses Bootstrap columns and ordering so the image and text stack on phones and align side by side on laptops. The club cards use <code>col-md-6</code> and <code>col-lg-4</code>, so they become one card per row on phones, two on tablets, and three on larger screens.</p>
+    <p>Bootstrap components used: navbar, cards, accordion, and modal.</p>
+
+    <h2>Task 3. Comparison</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Criterion</th>
+          <th>Media queries by hand</th>
+          <th>Bootstrap grid</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Amount of code</td>
+          <td>I wrote custom rules for the collection grid, cards, images, and breakpoints.</td>
+          <td>I used Bootstrap classes like <code>container</code>, <code>row</code>, <code>col-md-6</code>, and <code>col-lg-4</code>, so less CSS was needed.</td>
+        </tr>
+        <tr>
+          <td>Control over design</td>
+          <td>I had full control over exact spacing, card behavior, and breakpoint changes in the handmade section.</td>
+          <td>Bootstrap was faster, but the layout follows Bootstrap's existing grid and utility system.</td>
+        </tr>
+        <tr>
+          <td>Speed of work</td>
+          <td>It took more time because every responsive rule had to be planned and tested.</td>
+          <td>It was quicker because common responsive patterns were already built into Bootstrap.</td>
+        </tr>
+        <tr>
+          <td>Ease of changes</td>
+          <td>Small visual changes are easy, but layout changes require editing CSS media queries.</td>
+          <td>Changing column behavior is simple by changing classes such as <code>col-md-6</code> or <code>col-lg-4</code>.</td>
+        </tr>
+      </tbody>
+    </table>
+    <p>I would choose handmade media queries when I need a unique layout or more control over the exact design. I would choose Bootstrap when I need to build a clean responsive page quickly with standard sections like navbars, cards, accordions, and modals.</p>
+
+    <h2>Screenshots</h2>
+    <h3>375px</h3>
+    <img src="screenshots/375.png" alt="Full page screenshot at 375px">
+    <h3>768px</h3>
+    <img src="screenshots/768.png" alt="Full page screenshot at 768px">
+    <h3>1280px</h3>
+    <img src="screenshots/1280.png" alt="Full page screenshot at 1280px">
+
+    <h2>Conclusion</h2>
+    <p>In this assignment I practiced building a responsive page in two ways. I learned how mobile-first CSS media queries give precise control, and how Bootstrap makes common responsive layouts much faster to build.</p>
+  </body>
+</html>

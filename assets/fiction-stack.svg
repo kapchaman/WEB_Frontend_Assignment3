@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 440" role="img" aria-label="Stack of novels">
+  <rect width="700" height="440" fill="#fff4e6"/>
+  <circle cx="560" cy="100" r="72" fill="#f0c77e"/>
+  <rect x="120" y="270" width="450" height="48" rx="10" fill="#246b45"/>
+  <rect x="150" y="218" width="395" height="50" rx="10" fill="#b85c38"/>
+  <rect x="105" y="165" width="430" height="51" rx="10" fill="#283b4a"/>
+  <rect x="175" y="112" width="330" height="51" rx="10" fill="#e2b253"/>
+  <rect x="160" y="335" width="420" height="16" rx="8" fill="#73503c" opacity=".35"/>
+</svg>
