@@ -1,7 +1,7 @@
 # Assignment 3 Report
 
-Name: Your Name  
-Group: Your Group  
+Name: Alikhan Shikhiyev  
+Group: IT-2510  
 Project: Nomad Bookshelf
 
 ## Task 1. Media Queries by Hand
